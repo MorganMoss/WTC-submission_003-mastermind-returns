@@ -37,6 +37,7 @@ def show_results(result_tuple):
         'Number of correct digits not in correct place: ' +
      str(result_tuple[1]))
 
+
 def get_answer_input():
     """
      Gets input from the user,
@@ -70,6 +71,7 @@ def check_answer(code, answer):
         correct_digits_only
         )
 
+
 def take_turn(code):
     """
     Handle the logic of taking a turn, which includes:
@@ -84,6 +86,7 @@ def take_turn(code):
     result_tuple = check_answer(code, answer)
     show_results(result_tuple)
     return result_tuple
+
 
 def show_code(code):
     """Show Code that was created to user"""
